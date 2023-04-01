@@ -37,7 +37,7 @@ import com.twitter.search.common.file.AbstractFile;
  * Typed multithreaded HNSW implementation supporting creation/querying of approximate nearest neighbour
  * Paper: https://arxiv.org/pdf/1603.09320.pdf
  * Multithreading impl based on NMSLIB version : https://github.com/nmslib/hnsw/blob/master/hnswlib/hnswalg.h
- *
+ * @autor elon
  * @param <T> The type of items inserted / searched in the HNSW index.
  * @param <Q> The type of KNN query.
  */
